@@ -3,7 +3,7 @@ import { IoPersonCircleOutline } from "react-icons/io5";
 
 const Header = () => {
   return (
-    <div className='flex justify-around items-center border'>
+    <div className='flex justify-between items-center py-12'>
       <div>
         <h1 className='font-bold text-3xl text-[#150B2B]'>Recipe Calories</h1>
       </div>

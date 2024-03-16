@@ -1,0 +1,14 @@
+.banner-container {
+  background-image: url(../src/assets/images/bannerImage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 54px auto;
+  border-radius: 54px;
+}
