@@ -13,12 +13,12 @@
       "recipe_id": 2,
       "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful vegetable curry with aromatic spices.",
-      "ingredients": ["300 g mixed vegetables", "400 ml coconut milk", "2 tbsp curry paste", "200 g tofu"],
+      "ingredients": ["300 g mixed vegetables", "400 ml coconut milk", "2 tbsp curry paste", "200 g tofu", "150 g sugar"],
       "preparing_time": "40 min",
       "calories": "250 calories"
     },
     {
-      "recipe_image": "image3.jpg",
+      "recipe_image": "images/Spaghetti Carbonara.jpg",
       "recipe_id": 3,
       "recipe_name": "Spaghetti Carbonara",
       "short_description": "Classic Italian pasta dish with creamy sauce and bacon.",
@@ -27,7 +27,7 @@
       "calories": "450 calories"
     },
     {
-      "recipe_image": "image4.jpg",
+      "recipe_image": "images/Greek Salad.jpg",
       "recipe_id": 4,
       "recipe_name": "Greek Salad",
       "short_description": "A refreshing and healthy Greek salad with feta cheese.",
@@ -36,7 +36,7 @@
       "calories": "180 calories"
     },
     {
-      "recipe_image": "image5.jpg",
+      "recipe_image": "images/Chocolate Cake.jpg",
       "recipe_id": 5,
       "recipe_name": "Chocolate Cake",
       "short_description": "Decadent chocolate cake with rich frosting.",
@@ -45,11 +45,11 @@
       "calories": "380 calories"
     },
     {
-      "recipe_image": "image6.jpg",
+      "recipe_image": "images/Mango Smoothie.jpg",
       "recipe_id": 6,
       "recipe_name": "Mango Smoothie",
       "short_description": "Refreshing mango smoothie perfect for breakfast.",
-      "ingredients": ["2 ripe mangoes", "200 ml yogurt", "100 ml orange juice", "Ice cubes"],
+      "ingredients": ["2 ripe mangoes", "200 ml yogurt", "100 ml orange juice", "Ice cubes", "100 g feta cheese","100 g cocoa powder","150 g sugar"],
       "preparing_time": "10 min",
       "calories": "150 calories"
     }
