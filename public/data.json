@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": " https://imgur.com/a/JXhf63A ",
+      "recipe_image": " images/Chicken Stir-Fry.jpg ",
       "recipe_id": 1,
       "recipe_name": "Chicken Stir-Fry",
       "short_description": "A delicious and easy chicken stir-fry with vegetables.",
@@ -9,7 +9,7 @@
       "calories": "320 calories"
     },
     {
-      "recipe_image": "image2.jpg",
+      "recipe_image": "images/Vegetable Curry.jpg",
       "recipe_id": 2,
       "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful vegetable curry with aromatic spices.",
