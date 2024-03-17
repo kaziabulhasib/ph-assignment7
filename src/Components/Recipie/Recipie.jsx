@@ -1,4 +1,4 @@
-const Recipie = ({ recipie }) => {
+const Recipie = ({ recipie, handleWantToCook }) => {
   const {
     recipe_name,
     short_description,
@@ -38,7 +38,9 @@ const Recipie = ({ recipie }) => {
           <h3>{calories}</h3>
         </div>
       </div>
-      <button className='bg-[#0BE58A] py-3 px-6 rounded-3xl text-[18px] text-[#150B2B] font-medium'>
+      <button
+        onClick={() => handleWantToCook(recipie)}
+        className='bg-[#0BE58A] hover:bg-[#0be58ac2] py-3 px-6 rounded-3xl text-[18px] text-[#150B2B] font-medium'>
         Want to Cook
       </button>
     </div>

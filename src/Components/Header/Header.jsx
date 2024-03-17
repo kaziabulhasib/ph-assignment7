@@ -31,7 +31,7 @@ const Header = () => {
           placeholder='  Search'
         />
 
-        <IoPersonCircleOutline className='bg-green-500 text-3xl rounded-full' />
+        <IoPersonCircleOutline className='bg-[#0BE58A] text-[#150B2B] text-4xl rounded-full p-1' />
       </div>
     </div>
   );
