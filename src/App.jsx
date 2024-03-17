@@ -1,3 +1,7 @@
+// toast testing
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import { useState } from "react";
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
@@ -19,7 +23,8 @@ function App() {
       const newCookmarks = [...cookmarks, recipie];
       setCookmarks(newCookmarks);
     } else {
-      alert("already exist");
+      // toast part
+      toast.error("Already Exist!");
     }
   };
   return (
@@ -33,6 +38,7 @@ function App() {
           <Sidebar cookmarks={cookmarks}></Sidebar>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }
