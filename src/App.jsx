@@ -11,8 +11,16 @@ function App() {
   const [cookmarks, setCookmarks] = useState([]);
 
   const handleWantToCook = (recipie) => {
-    const newCookmarks = [...cookmarks, recipie];
-    setCookmarks(newCookmarks);
+    const isExist = cookmarks.find(
+      (cookmark) => cookmark.recipe_id == recipie.recipe_id
+    );
+
+    if (!isExist) {
+      const newCookmarks = [...cookmarks, recipie];
+      setCookmarks(newCookmarks);
+    } else {
+      alert("already exist");
+    }
   };
   return (
     <>
